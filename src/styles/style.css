@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 20px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.App .post {
+  padding: 8px;
+  width: calc(100% - 16px);
+  height: calc(auto - 16px);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.App .post .delete-btn {
+  max-width: 88px;
+  border: 1px solid #434343;
+  border-radius: 8px;
+  background: none;
+  color: black;
+}
+.App .form-post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-enter {
+  transform: translateX(-100%);
+}
+
+.post-enter-active {
+  transform: translateX(0);
+  transition: all 500ms ease-in;
+}
+
+.post-exit {
+  opacity: 1;
+}
+
+.post-exit-active {
+  transform: translateX(-100%);
+  transition: all 500ms ease-in;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,6 @@
+.MyInput{
+    width: cacl(100% - 30px);
+    padding: 5px 15px;
+    border: 1px solid teal;
+    background: transparent;
+}
